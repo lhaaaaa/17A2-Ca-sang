@@ -46,6 +46,6 @@ i = 2
 i = 3
 i = 4 -> in ra giá trị j = 5 -> dừng chương trình
 """
-for a in range(5):
-    print("Hello")
-print(a)
+#for a in range(5):
+#    print("Hello")
+#print(a)

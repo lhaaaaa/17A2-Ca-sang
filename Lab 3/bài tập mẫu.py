@@ -28,12 +28,14 @@ n = int(input("Nhập vào chiều cao của tam giác: "))
 #    # Xuống dòng
 #    print()
 # Câu b
-for i in range(n):
+#for i in range(n):
     # In ra khoảng trắng của mỗi dòng
-    for j in range(n - i - 1):
-        print(' ', end="")
+#    for j in range(n - i - 1):
+#        print(' ', end="")
     # In ra ký tự * cho tam giác
-    for j in range(i+1):
-        print("*", end ='')
+#    for j in range(i+1):
+#        print("*", end ='')
     # Xuống dòng
-    print()
+#    print()
+
+# Câu d
