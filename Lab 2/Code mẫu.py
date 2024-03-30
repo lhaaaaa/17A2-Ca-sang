@@ -56,5 +56,3 @@ b = 3
 #elif b != 3:
 #    print("Điều kiện ở elif là True")
 
-if 2 != "abc":
-    print("Đây là chương trình lỗi")

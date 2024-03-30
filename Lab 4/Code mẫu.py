@@ -48,7 +48,7 @@ a = 5
 #    print("Đây là câu lệnh khi vòng lặp for dừng")
 
 # Sử dụng pass trong vòng lặp while
-while a < 10:
-    print(a)
-    pass
-    a += 1 
+#while a < 10:
+#    print(a)
+#    pass
+#    a += 1 
