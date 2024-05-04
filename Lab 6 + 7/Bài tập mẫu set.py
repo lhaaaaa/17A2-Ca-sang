@@ -107,7 +107,7 @@ print(S)
 Bài 5:
 a) Viết chương trình tạo tập hợp A chỉ bao gồm các số nguyên tố nhỏ hơn n với n được nhập từ bàn phím.
 b) Viết chương trình tạo ngẫu nhiên 2 tập hợp số tự nhiên B, C sau đó liệt kê ra màn hình các phần tử chung của A, B.
-c) Viết chương trình sinh các tập hợp A, B, C như sau:
+c) Viết chương trình sinh các tập hợp D, E, F như sau:
 D- là tập hợp 100 số tự nhiên ngẫu nhiên trong khoảng [1,1000].
 E- là tập hợp 20 số tự nhiên ngẫu nhiên lấy từ tập hợp D.
 F- là tập hợp 10 số tự nhiên ngẫu nhiên lấy từ E.
@@ -153,17 +153,14 @@ for i in range(100):
 print(D)
 
 # E- là tập hợp 20 số tự nhiên ngẫu nhiên lấy từ tập hợp D
-E = set()
-for i in range(20):
-    so = random.randint(1,1000)
-    E.add(so)
+list_D = list(D)
+list_E = random.sample(list_D, 20)
+E = set(list_E)
 print(E)
 
-# F- là tập hợp 10 số tự nhiên ngẫu nhiên lấy từ tập hợp D
-F = set()
-for i in range(10):
-    so = random.randint(1,1000)
-    F.add(so)
+# F- là tập hợp 10 số tự nhiên ngẫu nhiên lấy từ tập hợp E
+list_F = random.sample(list_E, 10)
+F = set(list_F)
 print(F)
 
 #d) G- là tập hợp 10 số tự nhiên ngẫu nhiên lấy từ khoảng [2,1000]
