@@ -60,7 +60,7 @@ c) Viết chương trình thực hiện các công việc sau:
 + Nhập một số tự nhiên n từ bàn phím
 + Tạo 2 tập hợp A, B, trong đó A là tập các số nguyên tố là ước của n; 
 Tập hợp B bao gồm các số nguyên tố nhỏ hơn n và không là ước của n.
-"""
+
 #A = set()
 #while True:
 #    ky_tu_A = input("Nhập một ký tự từ bàn phím: ")
@@ -122,3 +122,4 @@ for i in range(1,n):
         if check == True:
             B.add(i)
 print(B)
+"""
