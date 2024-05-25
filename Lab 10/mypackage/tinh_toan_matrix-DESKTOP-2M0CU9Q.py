@@ -1,5 +1,5 @@
 def cong_ma_tran(A, B):
-    if len(A) == len(B) and len(A[0]) == len(B[0]):
+    if len(A) != len(B) and len(A[0]) != len(B[0]):
         print("Hai ma trận không thực hiện được phép cộng")
     else:
         C = []
@@ -10,8 +10,8 @@ def cong_ma_tran(A, B):
             C.append(row)
         return C
     
-def cong_ma_tran(A, B):
-    if len(A) == len(B) and len(A[0]) == len(B[0]):
+def tru_ma_tran(A, B):
+    if len(A) != len(B) and len(A[0]) != len(B[0]):
         print("Hai ma trận không thực hiện được phép trừ")
     else:
         C = []
